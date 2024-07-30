@@ -1,53 +1,38 @@
 {
-    "name": "Catppuccin",
-    "author": "ozwaldorf, soradotwav",
+    "name": "Gruvbox Material",
+    "author": "Firebert, ozwaldorf, soradotwav",
     "manifest_version": 3,
     "target": "Other",
-    "description": "Catppuccin Steam Deck",
+    "description": "Gruvbox Material Steam Deck",
     "inject": {
         "shared.css": ["SP", "MainMenu", "QuickAccess"]
     },
     "patches": {
-        "Flavor": {
+        "Palette": {
             "type": "slider",
             "values": {
                 "Mocha": {
-                    "flavors/mocha.css": ["SP", "MainMenu", "QuickAccess"]
+                    "palette/mocha.css": ["SP", "MainMenu", "QuickAccess"]
                 },
-                "Macchiato": {
-                    "flavors/macchiato.css": ["SP", "MainMenu", "QuickAccess"]
+                "Dark Medium": {
+                    "palette/dark-medium.css": ["SP", "MainMenu", "QuickAccess"]
                 },
                 "Frappe": {
-                    "flavors/frappe.css": ["SP", "MainMenu", "QuickAccess"]
+                    "palette/frappe.css": ["SP", "MainMenu", "QuickAccess"]
                 },
                 "Latte": {
-                    "flavors/latte.css": ["SP", "MainMenu", "QuickAccess"]
+                    "palette/latte.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
         },
         "Accent": {
             "type": "dropdown",
             "values": {
-                "Rosewater": {
-                    "accents/rosewater.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Flamingo": {
-                    "accents/flamingo.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Pink": {
-                    "accents/pink.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Mauve": {
-                    "accents/mauve.css": ["SP", "MainMenu", "QuickAccess"]
-                },
                 "Red": {
                     "accents/red.css": ["SP", "MainMenu", "QuickAccess"]
                 },
-                "Maroon": {
-                    "accents/maroon.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Peach": {
-                    "accents/peach.css": ["SP", "MainMenu", "QuickAccess"]
+                "Orange": {
+                    "accents/orange.css": ["SP", "MainMenu", "QuickAccess"]
                 },
                 "Yellow": {
                     "accents/yellow.css": ["SP", "MainMenu", "QuickAccess"]
@@ -55,20 +40,14 @@
                 "Green": {
                     "accents/green.css": ["SP", "MainMenu", "QuickAccess"]
                 },
-                "Teal": {
-                    "accents/teal.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Sky": {
-                    "accents/sky.css": ["SP", "MainMenu", "QuickAccess"]
-                },
-                "Sapphire": {
-                    "accents/sapphire.css": ["SP", "MainMenu", "QuickAccess"]
+                "Aqua": {
+                    "accents/aqua.css": ["SP", "MainMenu", "QuickAccess"]
                 },
                 "Blue": {
                     "accents/blue.css": ["SP", "MainMenu", "QuickAccess"]
                 },
-                "Lavender": {
-                    "accents/lavender.css": ["SP", "MainMenu", "QuickAccess"]
+                "Purple": {
+                    "accents/purple.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
         }

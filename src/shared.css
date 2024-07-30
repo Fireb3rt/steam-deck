@@ -40,7 +40,7 @@ HOME PAGE
   color: var(--ctp-green);
 }
 .shared_svg_library_SteamDeckCompatPlayable_S7BDm {
-  color: var(--ctp-peach);
+  color: var(--ctp-yellow);
 }
 .shared_svg_library_SteamDeckCompatUnsupported_1SeOP, .shared_svg_library_SteamDeckCompatUnknown_15dEs {
   color: var(--ctp-red);
@@ -232,7 +232,7 @@ GAME DETAILS
   color: var(--ctp-subtext1);
 }
 .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq .appactivityday_HeadlineGameName_Gy1Y7 {
-  color: var(--ctp-rosewater);
+  color: var(--ctp-purple);
 }
 .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
   background: var(--ctp-surface0);  
@@ -642,7 +642,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
   background-color: var(--ctp-blue);
 }
 .contentmanagement_DriveUsageDLC_2W7tN {
-  background-color: var(--ctp-lavender);
+  background-color: var(--ctp-purple);
 }
 .contentmanagement_DriveUsageWorkshop_1W6jW {
   background-color: var(--ctp-green);
@@ -1092,7 +1092,7 @@ svg.searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js > path {
   color: var(--ctp-green);
 }
 .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType14_ovxhr {
-  color: var(--ctp-flamingo);
+  color: var(--ctp-purple);
 }
 
 /* Whats New Fix */

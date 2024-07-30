@@ -1,0 +1,24 @@
+:root {
+  /* Accents */
+  --ctp-red: #ea6962;
+  --ctp-orange: #e78a4e;
+  --ctp-yellow: #d8a657;
+  --ctp-green: #a9b665;
+  --ctp-aqua: #89B482;
+  --ctp-blue: #7daea3;
+  --ctp-purple: #ca8094;
+
+  /* Element Colors */
+  --ctp-text: #ddc7a1;
+  --ctp-subtext1: #d4be98;
+  --ctp-subtext0: #BEAC8E;
+  --ctp-overlay2: #a89984;
+  --ctp-overlay1: #928374;
+  --ctp-overlay0: #7c6f64;
+  --ctp-surface2: #5a524c;
+  --ctp-surface1: #45403d;
+  --ctp-surface0: #32302f;
+  --ctp-base: #282828;
+  --ctp-mantle: #1b1b1b;
+  --ctp-crust: #101010;
+}
